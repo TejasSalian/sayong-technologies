@@ -1,0 +1,134 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .mainmenu li a { padding: 30px 10px }
+	.is-sticky .mainmenu li a { padding: 20px 10px }
+	#home-carousel .item h2 { font-size: 46px }
+	#home-carousel .item p { width: 90% }
+	.section-title p { width: 80% }	
+	.skills-progress { margin-bottom: 50px }
+	.count-area { padding-bottom: 50px }
+	.counter {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.testimonial-area .item.active:before { display: none }
+	.pricing-area { padding-bottom: 50px }
+	.single_pricing { margin-bottom: 30px }
+	.video-text { margin-bottom: 50px }
+	.single-blog { margin-bottom: 30px }
+	.footer-widget { margin-bottom: 30px }
+	.single-latest-post img { width: 20% }
+	.footer-top-area { padding-bottom: 50px }
+	.search-box { margin-top: 50px }	
+	.about-single-project{ margin-top: 50px }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header-top-info { text-align: center }
+	.top-info-left a {
+		font-size: 10px;
+		margin-right: 10px;
+	}
+	.top-info-right ul {
+		display: inline-block;
+		float: none;
+	}
+	.top-info-right li a i { font-size: 14px }
+	.header-top-area { background: #fff none repeat scroll 0 0 }
+	.navbar-default { padding: 5px 0 }
+	.navbar-brand {
+		padding: 15px;
+		color: #333 !important;
+	}
+	.is-sticky .navbar-brand { padding: 15px 0 }
+	.mainmenu li a,
+	.is-sticky .mainmenu ul.nav.navbar-nav li  a {
+		color: #666 !important;
+		font-size: 12px;
+		padding: 15px;
+	}
+	#home-carousel .item h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+		margin-top: 80px;
+	}
+	#home-carousel .item p {
+		font-size: 14px;
+		margin: 0 auto 15px;
+		width: 100%;
+	}
+	#home-carousel .item .button {
+		font-size: 10px;
+		padding: 10px;
+	}
+	.section-title h2 { font-size: 26px }
+	.section-title p {
+		width: 100%;
+		font-size: 13px;
+	}
+	.skills-progress { margin-bottom: 50px }
+	.count-area { padding-bottom: 30px }
+	.counter {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.single-choose i {
+		float: none;
+		margin-bottom: 15px;
+	}
+	.portfolio-filter ul li {
+		font-size: 10px;
+		margin: 0;
+		padding: 10px;
+	}
+	.single-work { margin-top: 15px }
+	.work-title > h5 { font-size: 12px }
+	.work-title > p { font-size: 10px }
+	.work-icon a {
+		font-size: 15px;
+		margin: 10px 3px;
+	}
+	.testimonial-area .item.active:before { display: none }
+	.team-title > h3 { font-size: 20px }
+	.team-title > p { font-size: 13px }
+	.team-social-link a { font-size: 26px }
+	.single_pricing { margin-bottom: 15px }
+	.video-text { margin-bottom: 50px }
+	.single-blog { margin-bottom: 15px }
+	.blog-content a h2 { font-size: 18px }
+	.single-product { margin-bottom: 15px }
+	.subscribe-title h2 { font-size: 24px }
+	.footer-widget { margin-bottom: 50px }
+	.footer-top-area { padding-bottom: 30px }
+	.copyright p { font-size: 12px }
+	.search-box { margin-top: 50px }
+	.single-comment img {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.about-single-project{ margin-top: 50px }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
